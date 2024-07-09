@@ -92,7 +92,7 @@ app.use('/api/products', productRoute);
 
 mongoose
   .connect(
-    "mongodb+srv://admin:admin123@nodedb.uint3fc.mongodb.net/Node-API?retryWrites=true&w=majority&appName=NodeDB"
+    //connection string
   )
   .then(() => {
     console.log("connected to database");
